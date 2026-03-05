@@ -5,7 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QrJwHEC3owdKLYGt0teB-1" value="&lt;span style=&quot;color: rgb(232, 62, 140); font-family: SFMono-Regular, Consolas, &amp;quot;Liberation Mono&amp;quot;, Menlo, monospace; font-size: 15.3px; text-align: left; background-color: rgb(246, 248, 250);&quot;&gt;\(L_{D}=\)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="180" width="430" height="70" as="geometry" />
+          <mxGeometry x="199" y="360" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QrJwHEC3owdKLYGt0teB-3" value="&lt;h3 style=&quot;color: rgb(33, 34, 40); font-family: &amp;quot;PT Sans&amp;quot;, -apple-system, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, sans-serif; background-color: rgb(255, 255, 255);&quot; id=&quot;key-features-of-our-dcgan-framework&quot;&gt;DCGAN Framework&lt;/h3&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QrJwHEC3owdKLYGt0teB-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(33, 34, 40); font-family: &amp;quot;PT Sans&amp;quot;, -apple-system, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, sans-serif; font-size: 14.6107px; background-color: rgb(255, 255, 255);&quot;&gt;Structured Point Clouds&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(33, 34, 40); font-family: &amp;quot;PT Sans&amp;quot;, -apple-system, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, sans-serif; font-size: 14.6107px; background-color: rgb(255, 255, 255);&quot;&gt;Hull geometries encoded into 3D data for seamless processing&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="410" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
