@@ -47,3 +47,7 @@ The directory structure includes a specific folder for each phase of development
   - __CAM__: Dedicated to the part manufacturing and assembly process.
   - __CAS__: For simulation of end-to-end functionality and performance analysis.
 
+
+## Reference Links
+
+* [Use mathematical typesetting in diagrams](https://www.drawio.com/doc/faq/math-typesetting)
