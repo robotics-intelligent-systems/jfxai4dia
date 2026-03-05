@@ -51,3 +51,4 @@ The directory structure includes a specific folder for each phase of development
 ## Reference Links
 
 * [Use mathematical typesetting in diagrams](https://www.drawio.com/doc/faq/math-typesetting)
+* [AI for Engineering: Revolutionizing Hull Design with GANs](https://kodendaal.github.io/hull_gan_geometry/)
