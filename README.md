@@ -1,4 +1,4 @@
-# Artificial Intelligence for Industrial Design
+# Artificial Intelligence for Modular Industrial Design
 
 The MechatronicUML project consists of the following repositories:
 
