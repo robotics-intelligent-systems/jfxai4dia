@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="31.4.2" type="device">
+  <diagram id="p0" name="01 · Requisitos de alto nivel">
+    <mxGraphModel dx="1800" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1510" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="GIROPLANO ANFIBIO MODULAR | Ingeniería de requisitos&#10;Especificación conceptual de alto nivel · Basada en la imagen suministrada · Revisión A" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#12324A;strokeColor=#6D8CA3;fontColor=#FFFFFF;fontSize=23;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="30" width="1720" height="85" />
+        </mxCell>
+        <mxCell id="scope" value="BASE DEL CONCEPTO&#10;Observado: rotor, cabina con dos asientos aparentes, hélice posterior, cola y dos flotadores.&#10;Hipótesis a confirmar: configuración de giroplano con rotor en autorrotación. No se deducen dimensiones, prestaciones ni certificación de una imagen." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=16;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="140" width="835" height="130" />
+        </mxCell>
+        <mxCell id="decisions" value="DECISIONES DE ALCANCE ABIERTAS&#10;D-01: misión, ocupación y carga útil. D-02: jurisdicción y categoría aplicable.&#10;D-03: operación terrestre y solución de tren (no visible). D-04: tipo de energía y motor.&#10;TBD = por definir; TBC = por confirmar. Todo requisito es propuesto." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFF3D8;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=16;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="905" y="140" width="855" height="130" />
+        </mxCell>
+        <mxCell id="sys" value="SYS-00 · SISTEMA DE INTERÉS&#10;El sistema deberá permitir la misión aprobada en agua y, si se confirma D-03, en tierra, integrando vuelo, flotación, control y mantenimiento modular dentro de una envolvente demostrada." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#12324A;strokeColor=#6D8CA3;fontColor=#FFFFFF;fontSize=18;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="470" y="305" width="860" height="105" />
+        </mxCell>
+        <mxCell id="req1" value="R-01 · MISIÓN Y OPERACIÓN&#10;Deberá definir ocupación, carga, duración, alcance, emplazamientos y modos operativos.&#10;Parámetros: ocupantes [n], carga [kg], autonomía [min], alcance [km]: TBD.&#10;Verificación: V-01 · revisión de misión y escenarios." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="460" width="560" height="205" />
+        </mxCell>
+        <mxCell id="req2" value="R-02 · MASA Y CENTRADO&#10;Deberá mantener masa y centro de gravedad dentro de límites aprobados en todas las configuraciones y consumos.&#10;Parámetros: MTOM [kg], CG [m], márgenes: TBD.&#10;Verificación: V-02 · análisis y pesaje." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="460" width="560" height="205" />
+        </mxCell>
+        <mxCell id="req3" value="R-03 · ROTOR Y VUELO&#10;Deberá demostrar sustentación, estabilidad y control en la envolvente de giroplano adoptada, incluidas transiciones de despegue y aterrizaje.&#10;Velocidad [m/s], RPM, viento y distancias [m]: TBD.&#10;Verificación: V-03 · modelos y ensayos progresivos." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1200" y="460" width="560" height="205" />
+        </mxCell>
+        <mxCell id="req4" value="R-04 · PROPULSIÓN Y ENERGÍA&#10;Deberá proporcionar empuje y reserva energética para la misión, con supervisión térmica y respuesta definida ante fallos.&#10;Potencia [kW], energía, refrigeración y tipo de motor: TBD.&#10;Verificación: V-04 · banco y análisis." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="685" width="560" height="205" />
+        </mxCell>
+        <mxCell id="req5" value="R-05 · FLOTACIÓN E HIDRODINÁMICA&#10;Deberá sostener las condiciones de carga y conservar estabilidad a flote y durante maniobras en la envolvente acuática aprobada.&#10;Reserva de flotabilidad, oleaje, calado y estanqueidad: TBD.&#10;Verificación: V-05 · análisis y ensayos acuáticos." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="685" width="560" height="205" />
+        </mxCell>
+        <mxCell id="req6" value="R-06 · ESTRUCTURA Y MATERIALES&#10;Deberá transmitir cargas de rotor, propulsión y flotadores mediante uniones verificables, considerando fatiga y ambiente húmedo.&#10;Cargas, vida, corrosión y materiales: TBD.&#10;Verificación: V-06 · análisis, inspección y ensayos." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1200" y="685" width="560" height="205" />
+        </mxCell>
+        <mxCell id="req7" value="R-07 · CABINA Y FACTORES HUMANOS&#10;Deberá permitir acceso, visibilidad, sujeción y evacuación para los ocupantes definidos, incluidos escenarios de emergencia en agua.&#10;Ergonomía y tiempos de evacuación: TBD.&#10;Verificación: V-07 · maqueta y demostración." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="910" width="560" height="205" />
+        </mxCell>
+        <mxCell id="req8" value="R-08 · CONTROL Y AVIÓNICA&#10;Deberá permitir mando y supervisión de vuelo, propulsión y condición anfibia, con indicaciones inequívocas y modos degradados definidos.&#10;Sensores, alimentación, alertas y latencia: TBD.&#10;Verificación: V-08 · integración y fallos simulados." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="910" width="560" height="205" />
+        </mxCell>
+        <mxCell id="req9" value="R-09 · MODULARIDAD Y MANTENIMIENTO&#10;Deberá permitir sustitución de módulos con interfaces documentadas, configuración identificable e inspección posterior.&#10;Tiempo de intervención y medios: TBD.&#10;Verificación: V-09 · inspección y demostración." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1200" y="910" width="560" height="205" />
+        </mxCell>
+        <mxCell id="req10" value="R-10 · SEGURIDAD Y CONFORMIDAD&#10;Deberá trazar peligros a medidas y evidencias: pérdida de empuje, entrada de agua, inestabilidad, contacto con hélice/rotor y evacuación.&#10;Base de conformidad: D-02, pendiente.&#10;Verificación: V-10 · revisión de riesgos y evidencias." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1135" width="560" height="205" />
+        </mxCell>
+        <mxCell id="req11" value="R-11 · GEMELA DIGITAL&#10;Deberá mantener modelos de masa, vuelo, estructura y flotación vinculados a una configuración y datos de validación trazables.&#10;Fidelidad, incertidumbre y frecuencia de actualización: TBD.&#10;Verificación: V-11 · correlación y reproducibilidad." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#DAF3F2;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="1135" width="560" height="205" />
+        </mxCell>
+        <mxCell id="req12" value="R-12 · OPERACIÓN ANFIBIA TERRESTRE&#10;Si D-03 incluye tierra, deberá incorporar una solución de apoyo, frenado y transición compatible con flotadores y centrado.&#10;Tren, terreno y cargas de aterrizaje: TBD.&#10;Verificación: V-12 · análisis y demostración." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1200" y="1135" width="560" height="205" />
+        </mxCell>
+        <mxCell id="decomp0" value="derivar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#4D7892;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;" edge="1" parent="1" source="sys" target="req1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="decomp1" value="derivar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#4D7892;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;" edge="1" parent="1" source="sys" target="req2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="decomp2" value="derivar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#4D7892;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;" edge="1" parent="1" source="sys" target="req3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="legend" value="LECTURA: R-xx = requisito propuesto · V-xx = método de verificación (pestaña 03) · Las tarjetas R-01 a R-12 descomponen SYS-00.&#10;Los valores TBD deben fijarse con responsables y evidencia antes de congelar requisitos. No constituye un diseño de fabricación ni una validación de aeronavegabilidad." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFF3D8;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=15;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1390" width="1720" height="80" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p1" name="02 · Arquitectura simplificada">
+    <mxGraphModel dx="1700" dy="1210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1210" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="ARQUITECTURA MODULAR | Asignación e interfaces&#10;Vista simplificada · Los enlaces representan dependencias conceptuales, no geometría de montaje." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#12324A;strokeColor=#6D8CA3;fontColor=#FFFFFF;fontSize=22;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="30" width="1620" height="85" />
+        </mxCell>
+        <mxCell id="mission" value="MISIÓN Y ENVOLVENTE&#10;R-01 · R-10&#10;Decisiones D-01 a D-04" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFF3D8;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=17;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="600" y="150" width="500" height="95" />
+        </mxCell>
+        <mxCell id="core" value="INTEGRACIÓN DEL SISTEMA&#10;Masa / centrado · configuración · interfaces&#10;R-02 · R-09 · R-10" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#12324A;strokeColor=#6D8CA3;fontColor=#FFFFFF;fontSize=18;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="600" y="290" width="500" height="100" />
+        </mxCell>
+        <mxCell id="rotor" value="M-01 · ROTOR Y MÁSTIL&#10;R-03 / R-06&#10;IF-01: cargas, movimiento y uniones" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=16;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="460" width="375" height="130" />
+        </mxCell>
+        <mxCell id="cabin" value="M-02 · CABINA Y ESTRUCTURA&#10;R-06 / R-07&#10;IF-02: ocupantes, cargas y anclajes" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=16;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="455" y="460" width="375" height="130" />
+        </mxCell>
+        <mxCell id="power" value="M-03 · PROPULSIÓN Y COLA&#10;R-03 / R-04 / R-06&#10;IF-03: empuje, energía y mando" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=16;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="870" y="460" width="375" height="130" />
+        </mxCell>
+        <mxCell id="float" value="M-04 · FLOTADORES Y APOYO&#10;R-05 / R-12&#10;IF-04: cargas, agua y tren TBD" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=16;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1285" y="460" width="375" height="130" />
+        </mxCell>
+        <mxCell id="ctrl" value="M-05 · CONTROL Y AVIÓNICA&#10;R-08 · IF-05: alimentación, señales, unidades, tiempo y modos de fallo&#10;Mando y supervisión; compatibilidad a verificar por módulo." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#EAF4FC;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=17;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="670" width="790" height="115" />
+        </mxCell>
+        <mxCell id="twin" value="M-06 · SIMULACIÓN Y GEMELA DIGITAL&#10;R-11 · IF-06: modelos, configuración, telemetría y resultados&#10;Uso en ingeniería; mando automático fuera del alcance inicial." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#DAF3F2;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=17;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="870" y="670" width="790" height="115" />
+        </mxCell>
+        <mxCell id="e1" value="define" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#4D7892;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;" edge="1" parent="1" source="mission" target="core">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="m0" value="asignar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#4D7892;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;" edge="1" parent="1" source="core" target="rotor">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="m1" value="asignar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#4D7892;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;" edge="1" parent="1" source="core" target="cabin">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="m2" value="asignar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#4D7892;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;" edge="1" parent="1" source="core" target="power">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="m3" value="asignar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#4D7892;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=0;" edge="1" parent="1" source="core" target="float">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e2" value="supervisa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#4D7892;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="ctrl" target="core">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e3" value="evalúa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeColor=#4D7892;fontSize=12;labelBackgroundColor=#FFFFFF;dashed=1;" edge="1" parent="1" source="twin" target="core">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="tools" value="CADENA DE HERRAMIENTAS PROPUESTA&#10;FreeCAD: geometría e interfaces · Blender: visualización&#10;OpenModelica: modelos de sistemas · OpenFOAM: análisis de fluidos&#10;Project Chrono: dinámica multicuerpo&#10;Intercambio mediante formatos y adaptadores verificados; compatibilidad no asumida." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#DAF3F2;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=17;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="855" width="790" height="190" />
+        </mxCell>
+        <mxCell id="evidence" value="EVIDENCIA Y CONFIGURACIÓN&#10;Revisión CAD + parámetros + masa/CG + modelos + datos de ensayo&#10;Versiones, unidades, hipótesis y márgenes registrados por ejecución.&#10;La IA puede asistir en análisis y documentación; las decisiones se basan en evidencia validada.&#10;Código abierto propuesto ≠ modelos implementados o validados." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFF3D8;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=17;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="870" y="855" width="790" height="190" />
+        </mxCell>
+        <mxCell id="footer" value="ICD PROPUESTO: cada interfaz IF-xx deberá registrar propietario, conectores/uniones, magnitudes y unidades, tolerancias TBD, fallos, procedimiento de montaje y prueba de aceptación." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#12324A;strokeColor=#6D8CA3;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1085" width="1620" height="80" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p2" name="03 · Verificación y decisiones">
+    <mxGraphModel dx="1800" dy="1490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1490" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="VERIFICACIÓN Y CIERRE DE REQUISITOS&#10;Matriz de trazabilidad propuesta · Los ensayos y criterios indicados son trabajo futuro." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#12324A;strokeColor=#6D8CA3;fontColor=#FFFFFF;fontSize=23;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="30" width="1720" height="85" />
+        </mxCell>
+        <mxCell id="h0" value="ID / requisito" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#12324A;strokeColor=#6D8CA3;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="140" width="170" height="60" />
+        </mxCell>
+        <mxCell id="h1" value="Método y responsable propuesto" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#12324A;strokeColor=#6D8CA3;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="140" width="360" height="60" />
+        </mxCell>
+        <mxCell id="h2" value="Evidencia de aceptación" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#12324A;strokeColor=#6D8CA3;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="140" width="550" height="60" />
+        </mxCell>
+        <mxCell id="h3" value="Criterio de cierre / parámetro pendiente" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#12324A;strokeColor=#6D8CA3;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="140" width="640" height="60" />
+        </mxCell>
+        <mxCell id="v0-0" value="V-01 / R-01" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="200" width="170" height="75" />
+        </mxCell>
+        <mxCell id="v0-1" value="Revisión · Ingeniería de sistemas" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="200" width="360" height="75" />
+        </mxCell>
+        <mxCell id="v0-2" value="CONOPS aprobado y escenarios trazados." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="200" width="550" height="75" />
+        </mxCell>
+        <mxCell id="v0-3" value="Definir misión, ocupantes, carga, agua/tierra y restricciones." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="200" width="640" height="75" />
+        </mxCell>
+        <mxCell id="v1-0" value="V-02 / R-02" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="275" width="170" height="75" />
+        </mxCell>
+        <mxCell id="v1-1" value="Análisis + ensayo · Integración" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="275" width="360" height="75" />
+        </mxCell>
+        <mxCell id="v1-2" value="Informe de masas y pesaje por configuración." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="275" width="550" height="75" />
+        </mxCell>
+        <mxCell id="v1-3" value="Fijar MTOM y envolvente CG; demostrar todos los casos de carga." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="275" width="640" height="75" />
+        </mxCell>
+        <mxCell id="v2-0" value="V-03 / R-03" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="350" width="170" height="75" />
+        </mxCell>
+        <mxCell id="v2-1" value="Análisis + ensayo · Dinámica de vuelo" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="350" width="360" height="75" />
+        </mxCell>
+        <mxCell id="v2-2" value="Modelo correlacionado y campaña progresiva." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="350" width="550" height="75" />
+        </mxCell>
+        <mxCell id="v2-3" value="Acordar envolvente, márgenes y tolerancias de correlación antes de evaluar." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="350" width="640" height="75" />
+        </mxCell>
+        <mxCell id="v3-0" value="V-04 / R-04" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="425" width="170" height="75" />
+        </mxCell>
+        <mxCell id="v3-1" value="Banco + análisis · Propulsión" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="425" width="360" height="75" />
+        </mxCell>
+        <mxCell id="v3-2" value="Curvas de empuje/potencia y balance energético." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="425" width="550" height="75" />
+        </mxCell>
+        <mxCell id="v3-3" value="Cerrar ciclo de misión, reserva y límites térmicos TBD." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="425" width="640" height="75" />
+        </mxCell>
+        <mxCell id="v4-0" value="V-05 / R-05" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="500" width="170" height="75" />
+        </mxCell>
+        <mxCell id="v4-1" value="Análisis + ensayo · Hidrodinámica" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="500" width="360" height="75" />
+        </mxCell>
+        <mxCell id="v4-2" value="Balance hidrostático, estabilidad y estanqueidad." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="500" width="550" height="75" />
+        </mxCell>
+        <mxCell id="v4-3" value="Definir oleaje, reserva de flotabilidad y condiciones de daño evaluadas." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="500" width="640" height="75" />
+        </mxCell>
+        <mxCell id="v5-0" value="V-06 / R-06" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="575" width="170" height="75" />
+        </mxCell>
+        <mxCell id="v5-1" value="Análisis + inspección · Estructuras" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="575" width="360" height="75" />
+        </mxCell>
+        <mxCell id="v5-2" value="Casos de carga, uniones, fatiga y materiales." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="575" width="550" height="75" />
+        </mxCell>
+        <mxCell id="v5-3" value="Acordar cargas y márgenes aplicables; verificar contra esa base." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="575" width="640" height="75" />
+        </mxCell>
+        <mxCell id="v6-0" value="V-07 / R-07" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="650" width="170" height="75" />
+        </mxCell>
+        <mxCell id="v6-1" value="Demostración · Factores humanos" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="650" width="360" height="75" />
+        </mxCell>
+        <mxCell id="v6-2" value="Evaluación de acceso, visibilidad y evacuación." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="650" width="550" height="75" />
+        </mxCell>
+        <mxCell id="v6-3" value="Definir población de usuarios y escenarios; registrar aceptación." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="650" width="640" height="75" />
+        </mxCell>
+        <mxCell id="v7-0" value="V-08 / R-08" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="725" width="170" height="75" />
+        </mxCell>
+        <mxCell id="v7-1" value="Integración · Control y aviónica" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="725" width="360" height="75" />
+        </mxCell>
+        <mxCell id="v7-2" value="Registro de alertas, mando y fallos simulados." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="725" width="550" height="75" />
+        </mxCell>
+        <mxCell id="v7-3" value="Especificar latencias y respuesta degradada; comprobar sin ambigüedad." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="725" width="640" height="75" />
+        </mxCell>
+        <mxCell id="v8-0" value="V-09 / R-09" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="800" width="170" height="75" />
+        </mxCell>
+        <mxCell id="v8-1" value="Inspección + demostración · Mantenimiento" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="800" width="360" height="75" />
+        </mxCell>
+        <mxCell id="v8-2" value="ICD, desmontaje, montaje e inspección funcional." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="800" width="550" height="75" />
+        </mxCell>
+        <mxCell id="v8-3" value="Fijar tiempo objetivo, herramientas y criterios posintervención." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="800" width="640" height="75" />
+        </mxCell>
+        <mxCell id="v9-0" value="V-10 / R-10" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="875" width="170" height="75" />
+        </mxCell>
+        <mxCell id="v9-1" value="Revisión · Seguridad / conformidad" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="875" width="360" height="75" />
+        </mxCell>
+        <mxCell id="v9-2" value="Registro de peligros y trazas a requisitos y pruebas." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="875" width="550" height="75" />
+        </mxCell>
+        <mxCell id="v9-3" value="Resolver D-02 y aprobar riesgos residuales según proceso acordado." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="875" width="640" height="75" />
+        </mxCell>
+        <mxCell id="v10-0" value="V-11 / R-11" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="950" width="170" height="75" />
+        </mxCell>
+        <mxCell id="v10-1" value="Análisis · Modelado y simulación" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="950" width="360" height="75" />
+        </mxCell>
+        <mxCell id="v10-2" value="Modelos versionados y comparación con datos." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="950" width="550" height="75" />
+        </mxCell>
+        <mxCell id="v10-3" value="Definir error admisible y dominio de validez; separar calibración/validación." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#F1F6FA;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="950" width="640" height="75" />
+        </mxCell>
+        <mxCell id="v11-0" value="V-12 / R-12" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1025" width="170" height="75" />
+        </mxCell>
+        <mxCell id="v11-1" value="Análisis + demostración · Integración" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="210" y="1025" width="360" height="75" />
+        </mxCell>
+        <mxCell id="v11-2" value="Solución terrestre y transición verificadas, si aplica." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="1025" width="550" height="75" />
+        </mxCell>
+        <mxCell id="v11-3" value="Cerrar D-03; si se excluye tierra, revisar la denominación y alcance anfibio." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=14;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="1025" width="640" height="75" />
+        </mxCell>
+        <mxCell id="gate" value="SECUENCIA DE MADUREZ&#10;G0: misión y alcance → G1: requisitos cuantificados e interfaces → G2: modelos y bancos → G3: ensayos integrados → G4: evidencia revisada.&#10;Cada avance exige responsables, criterios de aceptación y evidencia acordados; ninguna etapa se declara completada por esta lámina." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#DAF3F2;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=17;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1140" width="1720" height="110" />
+        </mxCell>
+        <mxCell id="todo" value="REGISTRO INICIAL DE DECISIONES&#10;D-01 · Sistemas: misión y ocupación → antes de G1. D-02 · Conformidad: categoría/jurisdicción → antes de fijar la base de requisitos.&#10;D-03 · Integración: tren y operación terrestre → antes de cerrar arquitectura. D-04 · Propulsión: energía/motor → antes de balances de masa y misión.&#10;Fuente: imagen conceptual twin-float-amphibious-gyroplane.jpg. No se extraen medidas ni valores de rendimiento de la ilustración." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFF3D8;strokeColor=#6D8CA3;fontColor=#18354A;fontSize=16;fontFamily=Helvetica;align=left;verticalAlign=middle;spacing=14;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1290" width="1720" height="145" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
