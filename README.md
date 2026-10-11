@@ -3,6 +3,12 @@
 > **Project focus:** Physics-Driven AI for Industrial Design Automation  
 > **Architecture goal:** reorganize the alternatives listed in the JFXAI4DIA source description into a modular, open and replaceable architecture for AI-assisted design, CAD generation, multidisciplinary optimization, CFD/FEA, aerospace and marine conceptual design, geometry interoperability, simulation, and engineering validation.
 
+## CAD concepts and requirements engineering
+
+The three CAD concept illustrations have a proposed, traceable high-level specification with Mermaid architecture and verification views. Start with the [requirements index](docs/requirements/README.md), then review the [amphibious gyroplane](docs/requirements/concepts/amphibious-gyroplane.md), [hybrid gyrodyne air taxi](docs/requirements/concepts/hybrid-gyrodyne.md), and [OpenTwin personal eVTOL](docs/requirements/concepts/opentwin-evtol.md).
+
+These specifications distinguish visual evidence, assumptions, pending decisions and acceptance criteria. They preserve the amphibious Draw.io requirement IDs through an explicit mapping; the concepts and tool chains remain proposed and unvalidated.
+
 ---
 
 ## 1. Source Project Direction
