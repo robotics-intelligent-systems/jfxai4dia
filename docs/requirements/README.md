@@ -16,7 +16,7 @@ Las tres imágenes de [MBSE/CAD](../../MBSE/CAD) son láminas de concepto, no mo
 - `X-M-nn`: módulo lógico; `X-IF-nn`: interfaz propuesta; `X-V-nn`: actividad de verificación; `X-D-nn`: decisión pendiente. Los IDs de decisiones e interfaces de la lámina Draw.io se conservan bajo el prefijo AG.
 - TBD: valor por definir; TBC: hipótesis por confirmar. Un TBD no equivale a cero, aprobación ni cumplimiento. El responsable debe fijar valor, unidades, condiciones y justificación antes de evaluar.
 - Cada tabla enlaza requisito → asignación → verificación → criterio. Las relaciones Mermaid describen asignación o flujo de información; no representan cableado, geometría de montaje ni una demostración física.
-- La documentación Markdown es la fuente de las vistas Mermaid incluidas. El [Draw.io anfibio](../../MBSE/CAS/Drawio/giroplano-anfibio-requisitos.drawio) se conserva como antecedente Revisión A; su correspondencia R/V se registra en AG. Los otros Draw.io describen marcos generales y no se modifican.
+- La documentación Markdown es la fuente de las vistas Mermaid incluidas. El [Draw.io anfibio](../../MBSE/CAS/Drawio/giroplano-anfibio-requisitos.drawio) se conserva como antecedente Revisión A; su correspondencia R/V se registra en AG. Los Draw.io históricos de marcos generales se conservan. Las nuevas [vistas revisión C](../diagrams/README.md) complementan requisitos y modelos sin sustituir el antecedente ni declarar cumplimiento.
 
 ## Hilo de ingeniería
 
@@ -78,3 +78,7 @@ stateDiagram-v2
 G0: misión y decisiones de alcance. G1: requisitos cuantificados e ICD. G2: modelos correlacionados y bancos. G3: ensayos integrados según plan aprobado. G4: revisión de evidencia. Ningún hito está declarado completado por esta documentación; la verificación de requisitos tampoco demuestra por sí sola que la misión del usuario sea adecuada.
 
 Las decisiones comunes de jurisdicción/categoría, límites de masa, entorno, reservas, cargas y tolerancias de correlación deberán resolverse con responsables identificados. No se selecciona aquí una base regulatoria ni se afirma conformidad.
+
+## Complementos revisión C
+
+[SysML y simulación](../diagrams/README.md) · [Modelos y referencias](../simulation/README.md) · [Trazabilidad](../simulation/traceability.md) · [Capacitación AR](../education/ar-technical-training.md).

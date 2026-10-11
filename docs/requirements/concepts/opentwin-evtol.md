@@ -86,3 +86,9 @@ flowchart LR
     REVIEW -->|no| CHANGE["Cambio o nueva evidencia"]
     CHANGE --> PLAN
 ```
+
+## Vistas revisión C: SysML, simulación y capacitación
+
+[SysML editable](../../../MBSE/CAS/Drawio/opentwin-evtol-sysml-high-level.drawio) · [Modelos científicos](../../../MBSE/CAS/Drawio/opentwin-evtol-scientific-simulation.drawio) · [Ecuaciones y referencias](../../simulation/README.md) · [Capacitación AR](../../education/ar-technical-training.md).
+
+Se conservan obligaciones, IDs y criterios de revisión B; las vistas proponen asignaciones y actividades, sin declarar satisfacción ni verificación.

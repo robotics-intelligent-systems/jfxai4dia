@@ -1,0 +1,329 @@
+[
+  {
+    "requirement": "AG-R-01",
+    "module": "AG-M-00",
+    "verification": "AG-V-01",
+    "models": [],
+    "criterion": "CONOPS aprobado con ocupación, carga, duración, alcance y operación agua/tierra definidos.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "AG-R-02",
+    "module": "AG-M-00",
+    "verification": "AG-V-02",
+    "models": [
+      "AG-SIM-MB"
+    ],
+    "criterion": "Masa y CG de cada caso de carga y consumo dentro de límites TBD aprobados; informe y pesaje.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "AG-R-03",
+    "module": "AG-M-01",
+    "verification": "AG-V-03",
+    "models": [
+      "AG-SIM-RT",
+      "AG-SIM-FD"
+    ],
+    "criterion": "Envolvente, márgenes y tolerancia de correlación TBD satisfechos; campaña progresiva documentada.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "AG-R-04",
+    "module": "AG-M-03",
+    "verification": "AG-V-04",
+    "models": [
+      "AG-SIM-EN",
+      "AG-SIM-TH"
+    ],
+    "criterion": "Ciclo de misión y reserva TBD cubiertos sin exceder límites térmicos TBD; curvas de banco y balance.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "AG-R-05",
+    "module": "AG-M-04",
+    "verification": "AG-V-05",
+    "models": [
+      "AG-SIM-HY"
+    ],
+    "criterion": "Estabilidad, reserva de flotabilidad, oleaje y daño definidos TBD satisfechos; balance y ensayos acuáticos.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "AG-R-06",
+    "module": "AG-M-01 / AG-M-02 / AG-M-03",
+    "verification": "AG-V-06",
+    "models": [
+      "AG-SIM-ST"
+    ],
+    "criterion": "Casos de carga, márgenes, fatiga y ambiente húmedo acordados TBD satisfechos; análisis e inspección.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "AG-R-07",
+    "module": "AG-M-02",
+    "verification": "AG-V-07",
+    "models": [],
+    "criterion": "Población y escenarios definidos; acceso, visibilidad y evacuación cumplen criterios TBD; demostración.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "AG-R-08",
+    "module": "AG-M-05",
+    "verification": "AG-V-08",
+    "models": [
+      "AG-SIM-CT"
+    ],
+    "criterion": "Latencias, alertas y respuestas degradadas TBD cumplidas en integración y fallos simulados.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "AG-R-09",
+    "module": "AG-M-00",
+    "verification": "AG-V-09",
+    "models": [
+      "AG-SIM-MB"
+    ],
+    "criterion": "ICD y configuración identificados; sustitución dentro de tiempo TBD con inspección funcional conforme.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "AG-R-10",
+    "module": "AG-M-00",
+    "verification": "AG-V-10",
+    "models": [],
+    "criterion": "AG-D-02 resuelta; peligros trazados y tratamiento de riesgos residuales revisado según proceso acordado.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "AG-R-11",
+    "module": "AG-M-06",
+    "verification": "AG-V-11",
+    "models": [
+      "AG-SIM-MB",
+      "AG-SIM-RT",
+      "AG-SIM-FD",
+      "AG-SIM-ST",
+      "AG-SIM-HY"
+    ],
+    "criterion": "Error y dominio TBD cumplidos con modelos versionados y datos separados para calibración/validación.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "AG-R-12",
+    "module": "AG-M-04",
+    "verification": "AG-V-12",
+    "models": [
+      "AG-SIM-ST",
+      "AG-SIM-HY"
+    ],
+    "criterion": "AG-D-03 cerrada; si aplica tierra, apoyo, frenado y transición cumplen cargas y escenarios TBD.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "HG-R-01",
+    "module": "HG-M-00",
+    "verification": "HG-V-01",
+    "models": [],
+    "criterion": "CONOPS con ocupantes [n], carga [kg], alcance [km], duración [min] y reserva TBD aprobado.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "HG-R-02",
+    "module": "HG-M-00",
+    "verification": "HG-V-02",
+    "models": [
+      "HG-SIM-MB"
+    ],
+    "criterion": "MTOM [kg] y envolvente CG [m] TBD cumplidos en todos los casos de misión y módulos.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "HG-R-03",
+    "module": "HG-M-01",
+    "verification": "HG-V-03",
+    "models": [
+      "HG-SIM-RT",
+      "HG-SIM-WI",
+      "HG-SIM-FD"
+    ],
+    "criterion": "Régimen TBC, envolvente [m/s], RPM, viento y distancia de despegue [m] TBD cerrados; modelos correlacionados y evidencia de transición.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "HG-R-04",
+    "module": "HG-M-04",
+    "verification": "HG-V-04",
+    "models": [
+      "HG-SIM-EN",
+      "HG-SIM-TH"
+    ],
+    "criterion": "Balance de potencia [kW], energía [kWh], combustible [kg] si aplica, eficiencia y temperatura [K] TBD dentro de límites; curvas y ciclo de misión.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "HG-R-05",
+    "module": "HG-M-03",
+    "verification": "HG-V-05",
+    "models": [
+      "HG-SIM-WI",
+      "HG-SIM-CT"
+    ],
+    "criterion": "Mapa de empuje [N], asimetría, fallos y márgenes TBD satisfechos; interacciones rotor-ala-propulsores evaluadas.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "HG-R-06",
+    "module": "HG-M-02",
+    "verification": "HG-V-06",
+    "models": [
+      "HG-SIM-ST"
+    ],
+    "criterion": "Cargas [N], momentos [N m], vida y márgenes TBD satisfechos en rotor, ala, módulos y tren; informe de casos.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "HG-R-07",
+    "module": "HG-M-02",
+    "verification": "HG-V-07",
+    "models": [],
+    "criterion": "Ocupación TBC y criterios de accesibilidad, visibilidad y tiempo [s] TBD cumplidos en maqueta.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "HG-R-08",
+    "module": "HG-M-05",
+    "verification": "HG-V-08",
+    "models": [
+      "HG-SIM-CT"
+    ],
+    "criterion": "Latencias [ms], alertas, respuestas y aceptación de riesgos TBD cumplidas; fallos y trazas documentados.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "HG-R-09",
+    "module": "HG-M-00",
+    "verification": "HG-V-09",
+    "models": [
+      "HG-SIM-MB"
+    ],
+    "criterion": "ICD completos, tiempo [min] y herramientas TBD; prueba posterior conforme y nuevo balance de masa/CG.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "HG-R-10",
+    "module": "HG-M-06",
+    "verification": "HG-V-10",
+    "models": [
+      "HG-SIM-MB",
+      "HG-SIM-WI",
+      "HG-SIM-FD",
+      "HG-SIM-EN"
+    ],
+    "criterion": "Error, incertidumbre y dominio TBD satisfechos con datos independientes; COM-R-03 y COM-R-04 cumplidos.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "EV-R-01",
+    "module": "EV-M-00",
+    "verification": "EV-V-01",
+    "models": [],
+    "criterion": "Ocupación TBC, carga [kg], duración [min], radio [km], viento [m/s] y reserva TBD definidos en CONOPS.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "EV-R-02",
+    "module": "EV-M-00",
+    "verification": "EV-V-02",
+    "models": [
+      "EV-SIM-MB"
+    ],
+    "criterion": "MTOM [kg] y límites CG [m] TBD cumplidos con ocupante, batería y módulos; informe y pesaje.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "EV-R-03",
+    "module": "EV-M-02",
+    "verification": "EV-V-03",
+    "models": [
+      "EV-SIM-MC",
+      "EV-SIM-FD"
+    ],
+    "criterion": "Número de rotores TBC, empuje [N], márgenes, envolvente y fallos TBD definidos y satisfechos; interacción entre rotores evaluada.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "EV-R-04",
+    "module": "EV-M-03",
+    "verification": "EV-V-04",
+    "models": [
+      "EV-SIM-EN",
+      "EV-SIM-TH"
+    ],
+    "criterion": "Potencia [kW], energía utilizable [kWh], tensión [V], corriente [A], temperatura [K] y estado de carga [%] TBD cumplidos en ciclo de misión.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "EV-R-05",
+    "module": "EV-M-04",
+    "verification": "EV-V-05",
+    "models": [
+      "EV-SIM-CT"
+    ],
+    "criterion": "Latencias [ms], disponibilidad, pérdida de sensor/comunicación/actuador y respuesta TBD satisfechas; registros sincronizados.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "EV-R-06",
+    "module": "EV-M-01",
+    "verification": "EV-V-06",
+    "models": [
+      "EV-SIM-ST"
+    ],
+    "criterion": "Cargas [N], momentos [N m], impacto, vida y márgenes TBD satisfechos; asignación compartida con EV-M-05.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "EV-R-07",
+    "module": "EV-M-01",
+    "verification": "EV-V-07",
+    "models": [],
+    "criterion": "Población, exposición ambiental, separación de rotores y tiempo de evacuación [s] TBD evaluados en maqueta.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "EV-R-08",
+    "module": "EV-M-00",
+    "verification": "EV-V-08",
+    "models": [
+      "EV-SIM-MB"
+    ],
+    "criterion": "ICD, tiempo [min] y herramientas TBD definidos; inspección y prueba posteriores conformes; impacto masa/CG evaluado.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "EV-R-09",
+    "module": "EV-M-00",
+    "verification": "EV-V-09",
+    "models": [
+      "EV-SIM-CT",
+      "EV-SIM-TH"
+    ],
+    "criterion": "Escenarios, criterios de riesgo y respuestas TBD revisados; no se presume tolerancia a fallo de un rotor.",
+    "status": "proposed; evidence pending"
+  },
+  {
+    "requirement": "EV-R-10",
+    "module": "EV-M-06",
+    "verification": "EV-V-10",
+    "models": [
+      "EV-SIM-MB",
+      "EV-SIM-MC",
+      "EV-SIM-FD",
+      "EV-SIM-EN",
+      "EV-SIM-ST"
+    ],
+    "criterion": "Error, incertidumbre, sincronización [ms] y dominio TBD satisfechos; calibración separada de validación.",
+    "status": "proposed; evidence pending"
+  }
+]
