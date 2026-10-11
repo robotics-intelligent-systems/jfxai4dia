@@ -67,3 +67,9 @@ AG-IF-01…06 conservan la correspondencia IF-01…06 del Draw.io. Cada ICD apli
 ## Cadena de análisis propuesta
 
 FreeCAD: parámetros y uniones; Blender: visualización; OpenModelica: energía y sistemas; OpenFOAM: fluidos; Project Chrono: dinámica multicuerpo. La evidencia requerida incluye masa/CG, rotor/propulsión, estructura y flotación. Los adaptadores y modelos para autorrotación, superficie libre e interacción con flotadores deberán demostrarse antes de usar resultados para cerrar requisitos.
+
+## Vistas revisión C: SysML, simulación y capacitación
+
+[SysML editable](../../../MBSE/CAS/Drawio/amphibious-gyroplane-sysml-high-level.drawio) · [Modelos científicos](../../../MBSE/CAS/Drawio/amphibious-gyroplane-scientific-simulation.drawio) · [Ecuaciones y referencias](../../simulation/README.md) · [Capacitación AR](../../education/ar-technical-training.md).
+
+Se conservan obligaciones, IDs y criterios de revisión B; las vistas proponen asignaciones y actividades, sin declarar satisfacción ni verificación.
